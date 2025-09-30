@@ -44,9 +44,9 @@ export default function Login() {
           onChange={(e) => setPassword(e.target.value)}
         />
         <button
-          type="submit"
-          className="w-full bg-green-600 text-white py-2 rounded hover:bg-green-700"
-        >
+              type="submit"
+              className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700"
+            >
           Login
         </button>
         {message && <p className="text-center text-sm mt-3">{message}</p>}
